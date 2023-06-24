@@ -1,0 +1,85 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height: 70%;
+    margin: 200px auto ;
+    background-color: #00a9d4;
+    padding: 20px ;
+    border-radius: 15px;
+    border: 3px solid #240047;
+}
+
+.container__formulario{
+    width: 100%;
+}
+
+.container__input{
+    width: 400px;
+    height: 50px;
+    border-radius: 5px;
+    padding: 0;
+    margin: 0;
+    border: none;
+    background-color: #1c3166;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.container__button{
+    width: 150px;
+    height: 50px;
+    border-radius: 3px;
+    background-color: #240047;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.lista-container{
+    width: 100%;
+    margin-top: 10px;
+    padding: 0;
+}
+
+.lista__item{
+    background-color: #00a9d4;
+    list-style: none;
+    width: 100%;
+    border-radius: 3px;
+}
+
+.item__texto{
+    display: inline-block;
+    width: 250px;
+    height: 40px;
+    font-size: 1.5rem;
+}
+
+.lista__button{
+    display: inline-block;
+    color: black;
+    width: 140px;
+    margin-right: 5px;
+    background-color: #a3c9a7;
+    border: none;
+    cursor: pointer;
+    height: 30px;
+    border-radius: 3px;
+    font-size: 1.5rem;
+}
+
+.lista__button1{
+    display: inline-block;
+    color: black;
+    width: 140px;
+    margin-right: 5px;
+    background-color: #ff3d00;
+    border: none;
+    cursor: pointer;
+    height: 30px;
+    border-radius: 3px;
+    font-size: 1.5rem;
+}
+
